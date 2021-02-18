@@ -12,9 +12,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/hoanganh6491/KVLogLocal.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
+  s.swift_version = "4.2"
   s.requires_arc = true
 
-  s.source_files = 'KVLogLocal/KVLogLocalHelper/**/*.{swift}'
+  s.source_files = "KVLogLocal/**/*.{swift}"
 
   s.frameworks = 'Foundation'
   s.frameworks = 'UIKit'
