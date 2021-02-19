@@ -27,7 +27,30 @@ public class KVFnbLogHelper: NSObject {
     }
     
     // MARK: - Setting
+    public func setup () {
+        let fileManager = FileManager.default
+        guard let documentPath = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
+        let logPath = documentPath.appendingPathComponent(LogConstants.Directory.logs)
+        fileManager.createDirectoryIfNeeded(path: logPath)
+    }
     
+    public func verifyLogHelper () {
+        guard let previousTime = Defaults[LogConstants.FnbLogKey.timeIntervalChecked] else {
+            // first time deploying Log
+            Defaults[LogConstants.FnbLogKey.timeIntervalChecked] = Date()
+            return
+        }
+        let days = Date().difDays(from: previousTime)
+        
+        if days > 1 {
+            // clear log on the day before
+            let toDate = Calendar.current.date(byAdding: .day, value: -1, to: Date()) ?? Date()
+            KVFnbLogStore.shared.clearLogToGivenTime(date: toDate)
+            self.deleteLogFile()
+        }
+    }
+    
+    // MARK: - Handler
     public func settingNetworkReacher (_ host: String) {
         self.hostName = host
         if reachabilityManager == nil {
@@ -38,24 +61,6 @@ public class KVFnbLogHelper: NSObject {
         }
         reachabilityManager?.startListening()
     }
-    
-    public func verifyLogHelper () {
-        guard let previousTime = Defaults[LogConstants.FnbLogKey.timeIntervalChecked] else {
-            // first time deploying Log
-            Defaults[LogConstants.FnbLogKey.timeIntervalChecked] = Date()
-            return
-        }
-        let days = Date().difDays(from: previousTime)
-
-        if days > 1 {
-            // clear log on the day before
-            let toDate = Calendar.current.date(byAdding: .day, value: -1, to: Date()) ?? Date()
-            KVFnbLogStore.shared.clearLogToGivenTime(date: toDate)
-            self.deleteLogFile()
-        }
-    }
-    
-    // MARK: - Handler
     
     public func getAllLog () -> [FnbLogModel] {
         return KVFnbLogStore.shared.getLogs()
