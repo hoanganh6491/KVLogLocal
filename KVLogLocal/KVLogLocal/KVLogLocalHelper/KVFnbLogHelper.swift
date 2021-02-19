@@ -32,6 +32,7 @@ public class KVFnbLogHelper: NSObject {
         guard let documentPath = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
         let logPath = documentPath.appendingPathComponent(LogConstants.Directory.logs)
         fileManager.createDirectoryIfNeeded(path: logPath)
+        print("LogsDB: \(logPath)")
     }
     
     public func verifyLogHelper () {
