@@ -7,124 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A107824E5E96386280F6C5B /* Pods_KVLogLocal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5C699D2892A7DD9D2FCE6D /* Pods_KVLogLocal.framework */; };
-		47DCEC5E25DE43460053F7BA /* KVLogLocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DCEC5C25DE43460053F7BA /* KVLogLocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47DCEC6C25DE45140053F7BA /* LogBaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DCEC6725DE45140053F7BA /* LogBaseStore.swift */; };
-		47DCEC6D25DE45140053F7BA /* KVFnbLogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DCEC6825DE45140053F7BA /* KVFnbLogHelper.swift */; };
-		47DCEC6E25DE45140053F7BA /* KVFnbLogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DCEC6925DE45140053F7BA /* KVFnbLogStore.swift */; };
-		47DCEC6F25DE45140053F7BA /* KVFnbLogUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DCEC6A25DE45140053F7BA /* KVFnbLogUtils.swift */; };
-		47DCEC7025DE45140053F7BA /* FnBLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DCEC6B25DE45140053F7BA /* FnBLogModel.swift */; };
-		47DCEC7325DE455D0053F7BA /* KVFnbLogConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DCEC7225DE455D0053F7BA /* KVFnbLogConstant.swift */; };
+		475E8A2225DF535C00BE3B44 /* KVLogLocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 475E8A2025DF535C00BE3B44 /* KVLogLocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D775CEC73974D390F3E61CA0 /* Pods_KVLogLocal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FF854D4FCA5E5300BA5755 /* Pods_KVLogLocal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47DCEC5925DE43460053F7BA /* KVLogLocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVLogLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47DCEC5C25DE43460053F7BA /* KVLogLocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVLogLocal.h; sourceTree = "<group>"; };
-		47DCEC5D25DE43460053F7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47DCEC6725DE45140053F7BA /* LogBaseStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogBaseStore.swift; sourceTree = "<group>"; };
-		47DCEC6825DE45140053F7BA /* KVFnbLogHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVFnbLogHelper.swift; sourceTree = "<group>"; };
-		47DCEC6925DE45140053F7BA /* KVFnbLogStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVFnbLogStore.swift; sourceTree = "<group>"; };
-		47DCEC6A25DE45140053F7BA /* KVFnbLogUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVFnbLogUtils.swift; sourceTree = "<group>"; };
-		47DCEC6B25DE45140053F7BA /* FnBLogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FnBLogModel.swift; sourceTree = "<group>"; };
-		47DCEC7225DE455D0053F7BA /* KVFnbLogConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVFnbLogConstant.swift; sourceTree = "<group>"; };
-		4D5C699D2892A7DD9D2FCE6D /* Pods_KVLogLocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLogLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2CA40922815D2149705D3E9 /* Pods-KVLogLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLogLocal.debug.xcconfig"; path = "Target Support Files/Pods-KVLogLocal/Pods-KVLogLocal.debug.xcconfig"; sourceTree = "<group>"; };
-		F7EA2389D4B456999CF6EA5D /* Pods-KVLogLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLogLocal.release.xcconfig"; path = "Target Support Files/Pods-KVLogLocal/Pods-KVLogLocal.release.xcconfig"; sourceTree = "<group>"; };
+		458B620014777BD83447ADAA /* Pods-KVLogLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLogLocal.debug.xcconfig"; path = "Target Support Files/Pods-KVLogLocal/Pods-KVLogLocal.debug.xcconfig"; sourceTree = "<group>"; };
+		475E8A1D25DF535C00BE3B44 /* KVLogLocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVLogLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475E8A2025DF535C00BE3B44 /* KVLogLocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVLogLocal.h; sourceTree = "<group>"; };
+		475E8A2125DF535C00BE3B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B18A585EE4017748133EFC2 /* Pods-KVLogLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVLogLocal.release.xcconfig"; path = "Target Support Files/Pods-KVLogLocal/Pods-KVLogLocal.release.xcconfig"; sourceTree = "<group>"; };
+		85FF854D4FCA5E5300BA5755 /* Pods_KVLogLocal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVLogLocal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47DCEC5625DE43460053F7BA /* Frameworks */ = {
+		475E8A1A25DF535C00BE3B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A107824E5E96386280F6C5B /* Pods_KVLogLocal.framework in Frameworks */,
+				D775CEC73974D390F3E61CA0 /* Pods_KVLogLocal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02B75A8B27FDFA5B7762A925 /* Frameworks */ = {
+		475E8A1325DF535C00BE3B44 = {
 			isa = PBXGroup;
 			children = (
-				4D5C699D2892A7DD9D2FCE6D /* Pods_KVLogLocal.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47DCEC4F25DE43460053F7BA = {
-			isa = PBXGroup;
-			children = (
-				47DCEC5B25DE43460053F7BA /* KVLogLocal */,
-				47DCEC5A25DE43460053F7BA /* Products */,
-				FE3FA1FF9061B56070F8A5E8 /* Pods */,
-				02B75A8B27FDFA5B7762A925 /* Frameworks */,
+				475E8A1F25DF535C00BE3B44 /* KVLogLocal */,
+				475E8A1E25DF535C00BE3B44 /* Products */,
+				D15A1907C61D273B36F409EF /* Pods */,
+				550FAC2AFD344548B5C95A97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		47DCEC5A25DE43460053F7BA /* Products */ = {
+		475E8A1E25DF535C00BE3B44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47DCEC5925DE43460053F7BA /* KVLogLocal.framework */,
+				475E8A1D25DF535C00BE3B44 /* KVLogLocal.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47DCEC5B25DE43460053F7BA /* KVLogLocal */ = {
+		475E8A1F25DF535C00BE3B44 /* KVLogLocal */ = {
 			isa = PBXGroup;
 			children = (
-				47DCEC6625DE45140053F7BA /* KVLogLocalHelper */,
-				47DCEC5C25DE43460053F7BA /* KVLogLocal.h */,
-				47DCEC5D25DE43460053F7BA /* Info.plist */,
+				475E8A2025DF535C00BE3B44 /* KVLogLocal.h */,
+				475E8A2125DF535C00BE3B44 /* Info.plist */,
 			);
 			path = KVLogLocal;
 			sourceTree = "<group>";
 		};
-		47DCEC6625DE45140053F7BA /* KVLogLocalHelper */ = {
+		550FAC2AFD344548B5C95A97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47DCEC6725DE45140053F7BA /* LogBaseStore.swift */,
-				47DCEC6825DE45140053F7BA /* KVFnbLogHelper.swift */,
-				47DCEC6925DE45140053F7BA /* KVFnbLogStore.swift */,
-				47DCEC6A25DE45140053F7BA /* KVFnbLogUtils.swift */,
-				47DCEC6B25DE45140053F7BA /* FnBLogModel.swift */,
-				47DCEC7225DE455D0053F7BA /* KVFnbLogConstant.swift */,
+				85FF854D4FCA5E5300BA5755 /* Pods_KVLogLocal.framework */,
 			);
-			path = KVLogLocalHelper;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FE3FA1FF9061B56070F8A5E8 /* Pods */ = {
+		D15A1907C61D273B36F409EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2CA40922815D2149705D3E9 /* Pods-KVLogLocal.debug.xcconfig */,
-				F7EA2389D4B456999CF6EA5D /* Pods-KVLogLocal.release.xcconfig */,
+				458B620014777BD83447ADAA /* Pods-KVLogLocal.debug.xcconfig */,
+				7B18A585EE4017748133EFC2 /* Pods-KVLogLocal.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47DCEC5425DE43460053F7BA /* Headers */ = {
+		475E8A1825DF535C00BE3B44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DCEC5E25DE43460053F7BA /* KVLogLocal.h in Headers */,
+				475E8A2225DF535C00BE3B44 /* KVLogLocal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		47DCEC5825DE43460053F7BA /* KVLogLocal */ = {
+		475E8A1C25DF535C00BE3B44 /* KVLogLocal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47DCEC6125DE43460053F7BA /* Build configuration list for PBXNativeTarget "KVLogLocal" */;
+			buildConfigurationList = 475E8A2525DF535C00BE3B44 /* Build configuration list for PBXNativeTarget "KVLogLocal" */;
 			buildPhases = (
-				CBB83BDDF2B484B6206BAAFF /* [CP] Check Pods Manifest.lock */,
-				47DCEC5425DE43460053F7BA /* Headers */,
-				47DCEC5525DE43460053F7BA /* Sources */,
-				47DCEC5625DE43460053F7BA /* Frameworks */,
-				47DCEC5725DE43460053F7BA /* Resources */,
+				EE89E0A3EFC3CCF7E08E0C80 /* [CP] Check Pods Manifest.lock */,
+				475E8A1825DF535C00BE3B44 /* Headers */,
+				475E8A1925DF535C00BE3B44 /* Sources */,
+				475E8A1A25DF535C00BE3B44 /* Frameworks */,
+				475E8A1B25DF535C00BE3B44 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,24 +107,24 @@
 			);
 			name = KVLogLocal;
 			productName = KVLogLocal;
-			productReference = 47DCEC5925DE43460053F7BA /* KVLogLocal.framework */;
+			productReference = 475E8A1D25DF535C00BE3B44 /* KVLogLocal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		47DCEC5025DE43460053F7BA /* Project object */ = {
+		475E8A1425DF535C00BE3B44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = anhvh;
 				TargetAttributes = {
-					47DCEC5825DE43460053F7BA = {
+					475E8A1C25DF535C00BE3B44 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = 47DCEC5325DE43460053F7BA /* Build configuration list for PBXProject "KVLogLocal" */;
+			buildConfigurationList = 475E8A1725DF535C00BE3B44 /* Build configuration list for PBXProject "KVLogLocal" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,18 +132,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 47DCEC4F25DE43460053F7BA;
-			productRefGroup = 47DCEC5A25DE43460053F7BA /* Products */;
+			mainGroup = 475E8A1325DF535C00BE3B44;
+			productRefGroup = 475E8A1E25DF535C00BE3B44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47DCEC5825DE43460053F7BA /* KVLogLocal */,
+				475E8A1C25DF535C00BE3B44 /* KVLogLocal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47DCEC5725DE43460053F7BA /* Resources */ = {
+		475E8A1B25DF535C00BE3B44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +153,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CBB83BDDF2B484B6206BAAFF /* [CP] Check Pods Manifest.lock */ = {
+		EE89E0A3EFC3CCF7E08E0C80 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,23 +178,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47DCEC5525DE43460053F7BA /* Sources */ = {
+		475E8A1925DF535C00BE3B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DCEC7325DE455D0053F7BA /* KVFnbLogConstant.swift in Sources */,
-				47DCEC6F25DE45140053F7BA /* KVFnbLogUtils.swift in Sources */,
-				47DCEC6E25DE45140053F7BA /* KVFnbLogStore.swift in Sources */,
-				47DCEC6D25DE45140053F7BA /* KVFnbLogHelper.swift in Sources */,
-				47DCEC6C25DE45140053F7BA /* LogBaseStore.swift in Sources */,
-				47DCEC7025DE45140053F7BA /* FnBLogModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		47DCEC5F25DE43460053F7BA /* Debug */ = {
+		475E8A2325DF535C00BE3B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		47DCEC6025DE43460053F7BA /* Release */ = {
+		475E8A2425DF535C00BE3B44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -327,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -339,9 +308,9 @@
 			};
 			name = Release;
 		};
-		47DCEC6225DE43460053F7BA /* Debug */ = {
+		475E8A2625DF535C00BE3B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2CA40922815D2149705D3E9 /* Pods-KVLogLocal.debug.xcconfig */;
+			baseConfigurationReference = 458B620014777BD83447ADAA /* Pods-KVLogLocal.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -359,14 +328,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.citigotrain.KVLogLocal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		47DCEC6325DE43460053F7BA /* Release */ = {
+		475E8A2725DF535C00BE3B44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7EA2389D4B456999CF6EA5D /* Pods-KVLogLocal.release.xcconfig */;
+			baseConfigurationReference = 7B18A585EE4017748133EFC2 /* Pods-KVLogLocal.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -384,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.citigotrain.KVLogLocal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -392,25 +361,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47DCEC5325DE43460053F7BA /* Build configuration list for PBXProject "KVLogLocal" */ = {
+		475E8A1725DF535C00BE3B44 /* Build configuration list for PBXProject "KVLogLocal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47DCEC5F25DE43460053F7BA /* Debug */,
-				47DCEC6025DE43460053F7BA /* Release */,
+				475E8A2325DF535C00BE3B44 /* Debug */,
+				475E8A2425DF535C00BE3B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47DCEC6125DE43460053F7BA /* Build configuration list for PBXNativeTarget "KVLogLocal" */ = {
+		475E8A2525DF535C00BE3B44 /* Build configuration list for PBXNativeTarget "KVLogLocal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47DCEC6225DE43460053F7BA /* Debug */,
-				47DCEC6325DE43460053F7BA /* Release */,
+				475E8A2625DF535C00BE3B44 /* Debug */,
+				475E8A2725DF535C00BE3B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 47DCEC5025DE43460053F7BA /* Project object */;
+	rootObject = 475E8A1425DF535C00BE3B44 /* Project object */;
 }
