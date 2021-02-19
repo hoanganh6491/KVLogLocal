@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-class Utils {
+public class Utils {
     static func dateWithISO8601String(timeString: String) -> Date? {
         if timeString.isEmpty {
             return nil

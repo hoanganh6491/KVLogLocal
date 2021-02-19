@@ -13,7 +13,7 @@ import SwiftyUserDefaults
 
 
 
-class FnbLogModel: Object, Codable {
+public class FnbLogModel: Object, Codable {
     @objc dynamic var logEvent = ""
     @objc dynamic var createdDate: Date? = nil
     @objc dynamic var orderServiceStatus = ""

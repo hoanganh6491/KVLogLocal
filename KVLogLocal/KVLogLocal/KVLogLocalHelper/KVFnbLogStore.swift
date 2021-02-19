@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class KVFnbLogStore: LogBaseStore {
+public class KVFnbLogStore: LogBaseStore {
     static let shared = KVFnbLogStore()
     
     func getLogs() -> [FnbLogModel] {

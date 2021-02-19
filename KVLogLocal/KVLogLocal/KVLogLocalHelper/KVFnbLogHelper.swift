@@ -10,8 +10,8 @@ import Foundation
 import SwiftyUserDefaults
 import Alamofire
 
-class KVFnbLogHelper: NSObject {
-    static let shared = KVFnbLogHelper()
+public class KVFnbLogHelper: NSObject {
+    public static let shared = KVFnbLogHelper()
     
     enum OrderServiceEndpointStatus : String {
         case Reached = "Reached"
