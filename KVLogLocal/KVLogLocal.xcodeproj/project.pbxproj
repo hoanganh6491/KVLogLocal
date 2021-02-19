@@ -75,9 +75,9 @@
 		475E8A4925DF636D00BE3B44 /* KVLogLocalHelper */ = {
 			isa = PBXGroup;
 			children = (
+				475E8A4C25DF636D00BE3B44 /* KVFnbLogHelper.swift */,
 				475E8A4A25DF636D00BE3B44 /* LogBaseStore.swift */,
 				475E8A4B25DF636D00BE3B44 /* KVFnbLogConstant.swift */,
-				475E8A4C25DF636D00BE3B44 /* KVFnbLogHelper.swift */,
 				475E8A4D25DF636D00BE3B44 /* KVFnbLogStore.swift */,
 				475E8A4E25DF636D00BE3B44 /* KVFnbLogUtils.swift */,
 				475E8A4F25DF636D00BE3B44 /* FnBLogModel.swift */,

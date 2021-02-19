@@ -28,7 +28,7 @@ public class KVFnbLogHelper: NSObject {
     
     // MARK: - Setting
     
-    func settingNetworkReacher (_ host: String) {
+    public func settingNetworkReacher (_ host: String) {
         self.hostName = host
         if reachabilityManager == nil {
             reachabilityManager = NetworkReachabilityManager(host: hostName)
@@ -39,7 +39,7 @@ public class KVFnbLogHelper: NSObject {
         reachabilityManager?.startListening()
     }
     
-    func verifyLogHelper () {
+    public func verifyLogHelper () {
         guard let previousTime = Defaults[LogConstants.FnbLogKey.timeIntervalChecked] else {
             // first time deploying Log
             Defaults[LogConstants.FnbLogKey.timeIntervalChecked] = Date()
@@ -57,11 +57,11 @@ public class KVFnbLogHelper: NSObject {
     
     // MARK: - Handler
     
-    func getAllLog () -> [FnbLogModel] {
+    public func getAllLog () -> [FnbLogModel] {
         return KVFnbLogStore.shared.getLogs()
     }
     
-    func saveLogLocal (eventLog: String) {
+    public func saveLogLocal (eventLog: String) {
         let fnbLog = FnbLogModel()
         fnbLog.logEvent = eventLog
         fnbLog.orderServiceStatus = self.orderServiceEndpointStatus.rawValue
@@ -73,11 +73,11 @@ public class KVFnbLogHelper: NSObject {
     }
     
     // MARK: - Utils
-    func dataFilePathLogs (fileName: String) -> String {
+    public func dataFilePathLogs (fileName: String) -> String {
         return FileManager.default.logDirectoryPath.appendingFormat("\(fileName)")
     }
     
-    func writeToReportFile (params: Dictionary<String, Any>) -> URL {
+    public func writeToReportFile (params: Dictionary<String, Any>) -> URL {
         // get logs from db
         let logs = self.getAllLog()
         
@@ -102,14 +102,14 @@ public class KVFnbLogHelper: NSObject {
         return path
     }
     
-    func json(from object:Any) -> String? {
+    public func json(from object:Any) -> String? {
         guard let data = try? JSONSerialization.data(withJSONObject: object, options: []) else {
             return nil
         }
         return String(data: data, encoding: String.Encoding.utf8)
     }
     
-    func deleteLogFile () {
+    public func deleteLogFile () {
         let fileManager = FileManager.default
         do {
             let filePath = URL(fileURLWithPath: dataFilePathLogs(fileName: "/logs.txt"))
@@ -119,14 +119,14 @@ public class KVFnbLogHelper: NSObject {
         }
     }
     
-    func getInfos (params: FnbLogModel) -> String? {
+    public func getInfos (params: FnbLogModel) -> String? {
         guard let data = try? JSONSerialization.data(withJSONObject: params, options: []) else {
             return nil
         }
         return String(data: data, encoding: String.Encoding.utf8)
     }
     
-    func handleNetworkStatus(status: NetworkReachabilityManager.NetworkReachabilityStatus) {
+    public func handleNetworkStatus(status: NetworkReachabilityManager.NetworkReachabilityStatus) {
         switch status {
         case .notReachable:
             self.orderServiceEndpointStatus = .NotReachable
