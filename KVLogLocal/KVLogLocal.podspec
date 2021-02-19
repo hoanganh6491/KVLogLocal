@@ -35,7 +35,7 @@ s.dependency 'SwiftyJSON'
 s.source_files = "KVLogLocal/**/*.{swift}"
 
 # 9
-s.resources = "KVLogLocal/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "KVLogLocal/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
